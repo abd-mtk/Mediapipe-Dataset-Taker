@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2214</width>
+    <height>1229</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(244,255,249);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>0</y>
+      <width>2401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #6F789D;
+border-radius: 10px;
+padding:5px;
+font: 80 16pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>DATASET </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dataShow">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>80</y>
+      <width>1281</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: solid;
+border-color:#42AA6C;
+border-width: 5px;
+border-radius: 10px;
+padding: 1px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="flip_btn">
+    <property name="geometry">
+     <rect>
+      <x>1770</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Flip</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="movment_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>621</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Movment Name</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>831</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>SETTINGS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="saveLoc_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>621</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>No.Frame</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>950</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Show Keypoints</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="noFrame_num">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>480</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>1000000000</number>
+    </property>
+    <property name="value">
+     <number>30</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>950</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Show Fps</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="showKeypoint">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>950</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="showFps">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>950</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="apply_btn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>710</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clean_btn">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>710</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #b35b5a;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Clean</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="vidPath_txt">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>380</y>
+      <width>621</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="brows_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Video Path</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_btn">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#42AA6C;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pause_btn">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #e0a500;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Pause</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveLoc_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Save Location</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="dataCollected_num">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>1090</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>1090</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Frame Number</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cam_num">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>830</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="noSample_num">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>480</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>1000000000</number>
+    </property>
+    <property name="value">
+     <number>30</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>480</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>No.Sample</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_btn">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#b35b5a;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>580</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>To File</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="fromFile_num">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>580</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217,217,217);
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="maximum">
+     <number>1000000000</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="collection_btn">
+    <property name="geometry">
+     <rect>
+      <x>1550</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Collection</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>830</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #DEE9F3;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Camera Source</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rotation_btn">
+    <property name="geometry">
+     <rect>
+      <x>1990</x>
+      <y>970</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #008b8c;
+border-color: rgb(0, 85, 127);
+border-radius: 10px;
+padding:5px;
+font: 80 12pt &quot;MS Shell Dlg 2&quot;;
+font-family: &quot;Times New Roman&quot;;
+font-weight: bold;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Rotation</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2214</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
